@@ -1,0 +1,83 @@
+$main-text-color: rgb(58, 58, 58);
+
+.note {
+  display: block;
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  background-color: rgb(255, 251, 134);
+  position: relative;
+  font-family: 'OleoScript-Regular', cursive;
+  color: $main-text-color;
+
+  .note__input {
+    width: 100%;
+    height: 70%;
+    border: none;
+    font-family: inherit;
+    font-size: 24px;
+    background-color: transparent;
+    resize: none;
+    display: none;
+  }
+
+  .note__content {
+    font-size: 24px;
+  }
+
+  .note__date {
+    position: absolute;
+    bottom: 15px;
+  }
+
+  &.edit .note__content {
+    display: none;
+  }
+
+  &.edit .note__input {
+    display: block;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &.edit .note__edit-button {
+    bottom: 20px;
+  }
+
+  &.edit .note__edit-button img {
+    width: 22px;
+  }
+
+  .note__edit-button {
+    bottom: 15px;
+    right: 50px;
+    opacity: 0.6;
+
+    img {
+      width: 40px;
+    }
+  }
+
+  .note__remove-button {
+    bottom: 18px;
+    right: 20px;
+    opacity: 0.8;
+
+    img {
+      width: 25px;
+    }
+  }
+}
+
+.note__edit-button,
+.note__remove-button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,32 @@
+$main-text-color: rgb(58, 58, 58);
+
+.header {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(0, 255, 255, 0.2);
+  border-radius: 0px 0px 5px 5px;
+}
+
+.header__logo {
+  position: relative;
+  width: fit-content;
+
+  img {
+    width: 60px;
+  }
+
+  .logo-text {
+    width: 205px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-family: 'OleoScript-Regular', cursive;
+    font-size: 32px;
+    color: $main-text-color;
+    font-weight: 100;
+  }
+}
