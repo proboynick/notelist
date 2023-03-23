@@ -1,11 +1,11 @@
 import { Header } from './components/Header/Header';
-import { Note } from './components/Note/Note';
+import { MainBlock } from './components/Main/Main';
 
 function App(): JSX.Element {
   return (
     <div className="App">
       <Header />
-      <Note />
+      <MainBlock />
     </div>
   );
 }
