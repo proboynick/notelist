@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/notelist/static/css/main.4e1361e0.css",
+    "main.js": "/notelist/static/js/main.d30fea1c.js",
+    "static/js/787.57eb7bb8.chunk.js": "/notelist/static/js/787.57eb7bb8.chunk.js",
+    "static/media/add.png": "/notelist/static/media/add.43f7b3d9e050610ee7f5.png",
+    "static/media/stick.png": "/notelist/static/media/stick.73cb43be61199f168516.png",
+    "static/media/confirm.png": "/notelist/static/media/confirm.d6f361cdcbb24fba6b16.png",
+    "static/media/OleoScript-Regular.ttf": "/notelist/static/media/OleoScript-Regular.fe131114c0882f16def0.ttf",
+    "static/media/remove.png": "/notelist/static/media/remove.5a486858c4bdc7a7b397.png",
+    "static/media/edit.png": "/notelist/static/media/edit.f58d50790ed215c976d2.png",
+    "static/media/github-logo.svg": "/notelist/static/media/github-logo.9c0b26d398b6096b583700f91bfb7312.svg",
+    "index.html": "/notelist/index.html",
+    "main.4e1361e0.css.map": "/notelist/static/css/main.4e1361e0.css.map",
+    "main.d30fea1c.js.map": "/notelist/static/js/main.d30fea1c.js.map",
+    "787.57eb7bb8.chunk.js.map": "/notelist/static/js/787.57eb7bb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1361e0.css",
+    "static/js/main.d30fea1c.js"
+  ]
+}
