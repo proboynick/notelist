@@ -41,6 +41,7 @@ export const AddNote = ({ add }: { add: (text: string) => void }): JSX.Element =
         rows={10}
         ref={inputArea}
         maxLength={75}
+        placeholder="Put some text..."
         onChange={(e) => {
           setContentValue(e.target.value);
         }}
@@ -51,6 +52,8 @@ export const AddNote = ({ add }: { add: (text: string) => void }): JSX.Element =
         onClick={() => {
           add(contentValue);
           setIsAdd(false);
+          setContentValue('');
+          (inputArea.current as unknown as HTMLTextAreaElement).value = '';
         }}
       >
         <img src={ConfirmIcon} alt="confirm" />

@@ -1,0 +1,28 @@
+.tags-block__tag {
+  display: block;
+  width: fit-content;
+  height: 30px;
+  padding: 3px 5px;
+  background-color: white;
+  border-radius: 20px;
+  color: rgb(73, 127, 252);
+  user-select: none;
+  background-color: rgba(0, 255, 255, 0.1);
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    border-left: 1px dashed gray;
+    padding: 0px 3px;
+    color: rgb(73, 127, 252);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
